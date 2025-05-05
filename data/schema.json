@@ -1,0 +1,230 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "supertype": {
+        "type": "string",
+        "enum": [
+          "Pokemon",
+          "Trainer"
+        ]
+      },
+      "subtype": {
+        "type": "string",
+        "if": {
+          "properties": {
+            "supertype": {
+              "enum": [
+                "Pokemon"
+              ]
+            }
+          }
+        },
+        "then": {
+          "enum": [
+            "Basic",
+            "Stage 1",
+            "Stage 2",
+            "Basic ex",
+            "Stage 1 ex",
+            "Stage 2 ex"
+          ]
+        },
+        "else": {
+          "enum": [
+            "Item",
+            "Tool",
+            "Stadium",
+            "Supporter"
+          ]
+        }
+      },
+      "hp": {
+        "type": "number"
+      },
+      "type": {
+        "type": "string",
+        "enum": [
+          "Grass",
+          "Fire",
+          "Water",
+          "Lightning",
+          "Psychic",
+          "Fighting",
+          "Dark",
+          "Metal",
+          "Dragon",
+          "Colorless",
+          "N/A"
+        ]
+      },
+      "evolvesFrom": {
+        "type": "string"
+      },
+      "content": {
+        "if": {
+          "properties": {
+            "supertype": {
+              "const": "Trainer"
+            }
+          }
+        },
+        "then": {
+          "type": "string"
+        },
+        "else": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "enum": [
+                  "ability",
+                  "attack"
+                ]
+              }
+            },
+            "if": {
+              "properties": {
+                "type": {
+                  "const": "ability"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "name",
+                "text"
+              ]
+            },
+            "else": {
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "cost": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "enum": [
+                      "Grass",
+                      "Fire",
+                      "Water",
+                      "Lightning",
+                      "Psychic",
+                      "Fighting",
+                      "Dark",
+                      "Metal",
+                      "Colorless",
+                      "None"
+                    ]
+                  }
+                },
+                "damage": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "name",
+                "cost",
+                "damage",
+                "text"
+              ]
+            }
+          }
+        }
+      },
+      "weakness": {
+        "type": "string",
+        "enum": [
+          "Grass",
+          "Fire",
+          "Water",
+          "Lightning",
+          "Psychic",
+          "Fighting",
+          "Dark",
+          "Metal",
+          "Colorless",
+          "None"
+        ]
+      },
+      "resistances": {
+        "type": "string",
+        "enum": [
+          "Grass",
+          "Fire",
+          "Water",
+          "Lightning",
+          "Psychic",
+          "Fighting",
+          "Dark",
+          "Metal",
+          "Colorless",
+          "None"
+        ]
+      },
+      "retreat": {
+        "type": "integer"
+      },
+      "number": {
+        "type": "string"
+      },
+      "artist": {
+        "type": "string"
+      },
+      "rarity": {
+        "type": "string"
+      },
+      "natdex": {
+        "type": "integer"
+      },
+      "species": {
+        "type": "string"
+      },
+      "height": {
+        "type": "number"
+      },
+      "weight": {
+        "type": "number"
+      },
+      "art": {
+        "type": "string"
+      },
+      "rules": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "supertype",
+      "subtype",
+      "art",
+      "number",
+      "artist",
+      "rarity"
+    ]
+  }
+}

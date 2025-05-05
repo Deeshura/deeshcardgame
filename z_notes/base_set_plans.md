@@ -1,0 +1,52 @@
+# Base Set Plans
+
+- 200 cards
+- 40 trainer cards
+    - 14 Items
+        - Poke Ball; now nest ball
+        - Great Ball; one pokemon to hand from discard pile
+        - Ultra Ball; same as normal
+        - Energy Retrieval
+        - Energy Search; now an earthen vessel clone (discard one, search two energies)
+        - Prize Ticket (rename of Redeemable Ticket)
+        - Pal Pad
+        - Pokegear; now pokegear 3.0
+        - Rare Candy
+        - Switch
+        - Fishing Rod; super rod rename
+        - Repel
+        - Neutralizing Cologne; cancelling cologne rename
+        - Enhanced Hammer
+    - 8 Tools
+        - Leftovers
+        - Air Balloon (now only reduces by 1C)
+        - Choice Band (now a reprint of choice belt, but for ex's)
+        - Exp. Share
+        - Rocky Helmet
+        - Big Charm
+        - Super-Effective Glasses
+        - Powerglass
+    - 8 Supporters
+        - Boss's Orders
+        - Professor's Research
+        - Rival's Challenge (N Reprint)
+        - Friend's Support (Arven Reprint)
+        - Hero's Resolve (Jacq Reprint)
+        - Mom's Cheer (Search for a special energy, add to hand)
+        - Admin's Protocol (Ciphermaniac's Codebreaking Reprint)
+        - Champion's Gambit (Turo's Scenario Reprint)
+    - 6 Stadiums
+        - Collapsed Stadium (nerfed to just a 4-wide bench)
+        - Sky Field (nerfed to just a 6-wide bench)
+        - Humble Town (artazon reprint)
+        - Department Store (town store rename)
+        - Bustling City (each player draws an additional card at the start of their turn)
+        - Game Corner (POKESTOP REPRINT)
+- 4 special energies
+    - Prism Energy
+    - Twin Energy
+    - Wyrm Energy (single-dragon energy)
+    - Ignition Energy
+- 160 Pokemon cards
+    - 16 cards of each type
+    - 1 Pokemon ex for each type
