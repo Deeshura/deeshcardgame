@@ -50,3 +50,10 @@
 - 160 Pokemon cards
     - 16 cards of each type
     - 1 Pokemon ex for each type
+    - other pokemon ideas i had include;
+        - air mail pidgeotto and quick search pidgeot ex
+        - nest stash skwovet, plus a greedent that works like bib
+        - zard ex that sorta works like a nerfed darkzard, attaches from deck based on how many more prize cards you've taken than your opponent (i'm experimenting with a reverse-prize approach)
+        - primarina ex which is a bench scaler, themed around leading an opera
+        - tyranitar that shuts off the abilities of basic pokemon when active (flesh thorns)
+        - donphan that mills

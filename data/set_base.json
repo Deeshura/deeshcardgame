@@ -1,12 +1,200 @@
 [
     {
-      "id": "",
-      "name": "",
-      "supertype": "",
-      "subtype": "",
-      "number": "",
+      "id": "B-001",
+      "name": "Snivy",
+      "supertype": "Pokemon",
+      "subtype": "Basic",
+      "number": "001/200",
       "artist": "",
-      "rarity": "",
-      "art": ""
+      "rarity": "Common",
+      "art": "",
+      "hp": 40,
+      "type": "Grass",
+      "content": [
+        {
+          "type": "attack",
+          "name": "Tackle",
+          "cost": ["Colorless"],
+          "damage": "10"
+        },
+        {
+          "type": "attack",
+          "name": "Vine Whip",
+          "cost": ["Grass", "Colorless"],
+          "damage": "20"
+        }
+      ],
+      "retreat": 1,
+      "weakness": "Fire",
+      "resistances": "Water",
+      "natdex": "0495",
+      "species": "Grass Snake",
+      "height": 0.6,
+      "weight": 8.1
+    },
+    {
+      "id": "B-002",
+      "name": "Servine",
+      "supertype": "Pokemon",
+      "subtype": "Stage 1",
+      "number": "002/200",
+      "artist": "",
+      "rarity": "Uncommon",
+      "art": "",
+      "hp": 60,
+      "type": "Grass",
+      "evolvesFrom": "Snivy",
+      "content": [
+        {
+          "type": "attack",
+          "name": "Wrap",
+          "cost": ["Grass"],
+          "damage": "10",
+          "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+        },
+        {
+          "type": "attack",
+          "name": "Vine Whip",
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "damage": "40"
+        }
+      ],
+      "retreat": 1,
+      "weakness": "Fire",
+      "resistances": "Water",
+      "natdex": "0496",
+      "species": "Grass Snake",
+      "height": 0.8,
+      "weight": 16.0
+    },
+    {
+      "id": "B-003",
+      "name": "Serperior ",
+      "supertype": "Pokemon",
+      "subtype": "Stage 2 ex",
+      "number": "003/200",
+      "artist": "",
+      "rarity": "Extra Rare",
+      "art": "",
+      "hp": 140,
+      "type": "Grass",
+      "evolvesFrom": "Servine",
+      "content": [
+        {
+          "type": "ability",
+          "name": "Regal Cheer",
+          "text": "Attacks used by your Pokémon do 20 more damage to your opponent’s Active Pokémon (before applying Weakness and Resistance)."
+        },
+        {
+          "type": "attack",
+          "name": "Grass Order",
+          "cost": ["Grass", "Colorless", "Colorless"],
+          "damage": "80",
+          "text": "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+        }
+      ],
+      "retreat": 2,
+      "weakness": "Fire",
+      "resistances": "Water",
+      "natdex": "0497",
+      "species": "Regal",
+      "height": 3.3,
+      "weight": 63.0
+    },
+    {
+      "id": "B-004",
+      "name": "Sunkern ",
+      "supertype": "Pokemon",
+      "subtype": "Basic",
+      "number": "004/200",
+      "artist": "",
+      "rarity": "Common",
+      "art": "",
+      "hp": 20,
+      "type": "Grass",
+      "content": [
+        {
+          "type": "attack",
+          "name": "Rollout",
+          "cost": ["Colorless"],
+          "damage": "10"
+        }
+      ],
+      "retreat": 0,
+      "weakness": "Fire",
+      "resistances": "Water",
+      "natdex": "191",
+      "species": "Seed",
+      "height": 0.3,
+      "weight": 1.8
+    },
+    {
+      "id": "B-005",
+      "name": "Sunflora ",
+      "supertype": "Pokemon",
+      "subtype": "Stage 1",
+      "number": "005/200",
+      "artist": "",
+      "rarity": "Uncommon",
+      "art": "",
+      "hp": 70,
+      "type": "Grass",
+      "evolvesFrom": "Sunkern",
+      "content": [
+        {
+          "type": "ability",
+          "name": "Chlorophyll",
+          "text": "Once during your turn, you may attach a Basic [g] Energy card from your hand to one of your [g] Pokémon in play. If you attached Energy to a Pokémon in this way, draw a card."
+        },
+        {
+          "type": "attack",
+          "name": "Petal Dance",
+          "cost": ["Grass", "Grass", "Grass"],
+          "damage": "30",
+          "text": "The Defending Pokemon is now Confused."
+        }
+      ],
+      "retreat": 1,
+      "weakness": "Fire",
+      "resistances": "Water",
+      "natdex": "192",
+      "species": "Sun",
+      "height": 0.8,
+      "weight": 8.5
+    },
+    {
+      "id": "B-144",
+      "name": "Garchomp ex",
+      "supertype": "Pokemon",
+      "subtype": "Stage 2 ex",
+      "number": "144/200",
+      "artist": "",
+      "rarity": "Extra Rare",
+      "art": "",
+      "hp": 140,
+      "type": "Dragon",
+      "content": [
+        {
+          "type": "attack",
+          "name": "Screw Dive",
+          "cost": ["Fighting", "Colorless"],
+          "damage": "50",
+          "text": "You may draw cards until you have 6 cards in your hand."
+        },
+        {
+          "type": "attack",
+          "name": "Sonic Strike",
+          "cost": ["Water","Fighting","Colorless"],
+          "text": "Discard 2 Energy from this Pokémon. This attack does 100 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+        }
+      ],
+      "retreat": 0,
+      "weakness": "None",
+      "resistances": "None",
+      "natdex": "0445",
+      "species": "Mach",
+      "height": 1.9,
+      "weight": 95.0,
+      "rules": "When your Pokemon [ex] is knocked out, you take 2 prize cards."
     }
 ]

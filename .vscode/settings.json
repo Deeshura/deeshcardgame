@@ -6,5 +6,6 @@
         ],
         "url": "./data/schema.json"
         }
-    ]
+    ],
+    "editor.wordWrap": "on"
 }
